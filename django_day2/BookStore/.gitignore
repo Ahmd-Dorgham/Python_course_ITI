@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+django/Day2/BookStore/BookStore/settings.py
+# Django
+*.log
+db.sqlite3
+media/
+
+# Migrations (اختياري لو مش عايز ترفعها)
+# **/migrations/*.py
+# **/migrations/*.pyc
+!**/migrations/__init__.py
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Static files (لو بتستخدم collectstatic)
+staticfiles/
+
+# Env file
+.env

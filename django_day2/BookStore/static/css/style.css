@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ===== CONTAINER ===== */
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ===== HEADER ===== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #333;
+}
+
+/* ===== GRID ===== */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+/* ===== CARD ===== */
+.book-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card h3 {
+    margin-top: 0;
+    color: #222;
+}
+
+.desc {
+    font-size: 14px;
+    color: #666;
+    min-height: 40px;
+}
+
+/* ===== META ===== */
+.meta {
+    display: flex ;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #444;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 13px;
+    color: white;
+    display: inline-block;
+}
+
+.add-btn {
+    background: #28a745;
+}
+
+.edit {
+    background: #007bff;
+}
+
+.delete {
+    background: #dc3545;
+}
+
+/* ===== ACTIONS ===== */
+
+
+/* ===== EMPTY STATE ===== */
+.empty-state {
+    text-align: center;
+    padding: 50px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+/* ===== FORM ===== */
+.form-card {
+    width: 480px;
+    margin: 60px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.form-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-card input,
+.form-card textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.form-card input:focus,
+.form-card textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.2);
+}
+
+.form-card button {
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-card button:hover {
+    background: #218838;
+}
