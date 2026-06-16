@@ -14,7 +14,7 @@ django/Day2/BookStore/BookStore/settings.py
 db.sqlite3
 media/
 
-# Migrations (اختياري لو مش عايز ترفعها)
+# Migrations 
 # **/migrations/*.py
 # **/migrations/*.pyc
 !**/migrations/__init__.py
@@ -27,7 +27,7 @@ media/
 .DS_Store
 Thumbs.db
 
-# Static files (لو بتستخدم collectstatic)
+# Static files 
 staticfiles/
 
 # Env file
